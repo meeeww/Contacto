@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #009ddb;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda {
+    width: 50%;
+}
+
+.subtitulo {
+    color: #009ddb;
+    font-weight: 800;
+    margin-top: 20px;
+
+}
+
+.titulofinal {
+    color: #009ddb;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.texto {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+
+}
+
+.rellenar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.separaciones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#mensaje{
+    height: 100px;
+}
+
+input[type=text] {
+    border: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgb(128, 128, 128);
+    background-color: rgb(250, 250, 250);
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 5%);
+}
+
+input[type=checkbox] {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#checkbox2 {
+    margin-top: 25px;
+}
